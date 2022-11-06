@@ -1,0 +1,31 @@
+import java.util.Scanner;
+class demo
+{
+	int a,b,c;
+	Scanner sc=new Scanner(System.in);
+	void read()
+	{
+		System.out.println("Enter the value A:");
+		a=sc.nextInt();
+		System.out.println("enter the value B:");
+		b=sc.nextInt();
+	}
+	void add()
+	{
+		c=a+b;
+	}
+	void show()
+	{
+		System.out.println("Addition of two value="+c);
+	}
+}
+	class main
+	{
+		public static void main(String []args)
+		{
+			demo d1=new demo();
+			d1.read();
+			d1.add();
+			d1.show();
+		}
+	}
