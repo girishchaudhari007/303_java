@@ -1,0 +1,24 @@
+class wrapper{
+	public static void main(String []args){
+		byte b = 10;
+		short s = 20;
+		int i = 30;
+		long l = 50;
+Byte byteobj = b;
+Short shortobj = s;
+Integer intobj = i;
+Long longobj = l;
+     System.out.println("Byte object :-		"+byteobj);
+     System.out.println("Short Object :-		"+shortobj);
+     System.out.println("Integer object :-	"+intobj);
+     System.out.println("Long Object :-		"+longobj);
+byte bytevalue = byteobj;
+short shortvalue = shortobj;
+int intvalue = intobj;
+long longvalue = longobj;
+   System.out.println("Bytevalue :-		"+bytevalue);
+   System.out.println("Shortvalue :-		"+shortvalue);
+   System.out.println("Intvalue :-		"+intvalue);
+   System.out.println("Longvalue :-		"+longvalue);
+	}      
+  }
