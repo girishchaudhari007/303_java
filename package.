@@ -15,3 +15,22 @@ package mypack;
    obj.msg();  
   }  
 }  
+
+
+/*package SYBCA;
+  public class IMRD{
+    public void display(){
+       System.out.println("Package is created");
+     }
+ }
+
+
+
+import SYBCS.*;
+  class BCA{
+	  public static void main(String args[]){
+		  IMRD i = new IMRD();
+		  i.display();
+	  }
+  }*/
+
