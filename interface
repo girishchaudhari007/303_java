@@ -1,0 +1,24 @@
+import java.util.Scanner;
+interface method{
+	 void read();
+	 void cal();
+}
+ class num implements method{
+	int a,b,;
+  Scanner s1 = new Scanner(System.in);
+public void read(){
+	  System.out.println("Enter number1 :-	");
+	  a = s1.nextInt();
+             System.out.println("Enter number2 :-	");
+	  b = s1.nextInt();
+  }
+  public void cal(){
+	System.out.println(a+b);
+  }       }
+public class Interface_ex{
+	public static void main(String []args){
+		num n1 = new num();
+		n1.read();
+		n1.cal();
+	}      
+  }
