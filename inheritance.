@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class demo{
+      int a,b;
+      Scanner s1 = new Scanner(System.in);
+	void read(){
+		System.out.print("Enter number1 :-");
+		a = s1.nextInt();
+		System.out.print("Enter number2 :-");
+		b = s1.nextInt();
+	}
+}
+class demo1 extends demo{
+	void display(){
+	int c = a+b;
+	System.out.println("Addition is :-	"+c);
+  }    }
+public class single_in{
+	public static  void main(String []args){
+		demo1 d1 = new demo1();
+		d1.read();
+		d1.display();
+	}
+}
