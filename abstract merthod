@@ -18,7 +18,7 @@ class abs
 			Y d = new Y();
 			d.display();
 			System.out.println(" d.i"  + d.i);
-			X a = new Y();	//reference of abstract class
+			X a = new Y();			//reference of abstract class
 			a.display();
 			System.out.println(" a.i " + a.i);
 	}
