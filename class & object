@@ -1,3 +1,5 @@
+//Program to demonstrate class and object.
+
 import java.util.Scanner;
 class demo
 {
